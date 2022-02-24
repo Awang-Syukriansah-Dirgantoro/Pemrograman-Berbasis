@@ -2,7 +2,7 @@ const e = React.createElement;
 
 function LikeButton() {
     return e('button', {
-        onclick: () => alert('berhasil')
+        onClick: () => alert('berhasil')
     }, 'Like'
     );
 }
