@@ -15,9 +15,10 @@ class StateFullComponent extends React.Component {
 }
 
 ReactDOM.render(
-  <React.StrictMode>
-    <StateFullComponent />
-  </React.StrictMode>,
+  // <React.StrictMode>
+  //   {/* <StateFullComponent /> */}
+  // </React.StrictMode>,
+  <App />,
   document.getElementById('root')
 );
 
