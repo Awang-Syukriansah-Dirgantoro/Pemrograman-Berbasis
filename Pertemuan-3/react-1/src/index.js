@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM, { render } from 'react-dom';
 import './index.css';
 import App from './App';
+import Test from './Test';
 import reportWebVitals from './reportWebVitals';
+import HelloComponent from './component/HelloComponent';
 
-function HelloComponent() {
-  return HelloComponent
-}
+// function HelloComponent() {
+//   return HelloComponent
+// }
 
 class StateFullComponent extends React.Component {
   render() {
@@ -18,7 +20,9 @@ ReactDOM.render(
   // <React.StrictMode>
   //   {/* <StateFullComponent /> */}
   // </React.StrictMode>,
-  <App />,
+  // <App />,
+  // <Test />,
+  <HelloComponent />,
   document.getElementById('root')
 );
 
