@@ -5,6 +5,9 @@ import App from './App';
 import Test from './Test';
 import reportWebVitals from './reportWebVitals';
 import HelloComponent from './component/HelloComponent';
+import Login from './login/Login';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
 
 // function HelloComponent() {
 //   return HelloComponent
@@ -22,7 +25,8 @@ ReactDOM.render(
   // </React.StrictMode>,
   // <App />,
   // <Test />,
-  <HelloComponent />,
+  // <HelloComponent />,
+  <Login />,
   document.getElementById('root')
 );
 
