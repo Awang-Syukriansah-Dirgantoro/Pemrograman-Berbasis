@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-class Test extends React.Component {
+class Geek extends React.Component {
     constructor(props) {
         super(props);
         this.state = { hello: "World!" };
@@ -35,7 +35,7 @@ class Test extends React.Component {
     }
 }
 ReactDOM.render(
-    <Test />,
+    <Geek />,
     document.getElementById('root'));
 
-export default Test;
+export default Geek;

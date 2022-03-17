@@ -1,33 +1,18 @@
 import React from 'react';
-import ReactDOM, { render } from 'react-dom';
+import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Geek from './Geek';
 import reportWebVitals from './reportWebVitals';
-import HelloComponent from './component/HelloComponent';
-import Login from './login/Login';
+import BlogPost from './container/BlogPost/BlogPost';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 
-// function HelloComponent() {
-//   return HelloComponent
-// }
-
-class StateFullComponent extends React.Component {
-  render() {
-    return <p>StateFullComponent</p>
-  }
-}
-
 ReactDOM.render(
   // <React.StrictMode>
-  //   {/* <StateFullComponent /> */}
+  //   <App />
   // </React.StrictMode>,
-  // <App />,
-  // <Geek />,
-  // <HelloComponent />,
-  <Login />,
-  document.getElementById('root')
+  <BlogPost />,
+  document.getElementById('content')
 );
 
 // If you want to start measuring performance in your app, pass a function
