@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import BlogPost from './container/BlogPost/BlogPost';
+import Tugas from './container/Tugas/Tugas';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -11,7 +12,8 @@ ReactDOM.render(
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>,
-  <BlogPost />,
+  // <BlogPost />,
+  <Tugas />,
   document.getElementById('content')
 );
 
