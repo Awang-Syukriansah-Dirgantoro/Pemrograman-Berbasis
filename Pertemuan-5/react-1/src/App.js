@@ -139,7 +139,6 @@ function AuthButton() {
 }
 
 function PrivateRoute({ children }) {
-  const auth = fakeAuth.isAuthenticated;
   return (
     fakeAuth.isAuthenticated ? (
       children
