@@ -1,0 +1,41 @@
+import React, { Component } from 'react'
+
+export class Footer extends Component {
+    render() {
+        return (
+            <><footer className="footer text-center">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-4 mb-5 mb-lg-0">
+                            <h4 className="text-uppercase mb-4">Location</h4>
+                            <p className="lead mb-0">
+                                Dalam Logika
+                                <br />
+                                Menyelam Lebih Dalam
+                            </p>
+                        </div>
+                        <div className="col-lg-4 mb-5 mb-lg-0">
+                            <h4 className="text-uppercase mb-4">Aplikasi Candu</h4>
+                            <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-facebook-f"></i></a>
+                            <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-twitter"></i></a>
+                            <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-linkedin-in"></i></a>
+                            <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-dribbble"></i></a>
+                        </div>
+                        <div className="col-lg-4">
+                            <h4 className="text-uppercase mb-4">Tentang Mex Store</h4>
+                            <p className="lead mb-0">
+                                Web ini dibuat atas kesadaran yang sangat sangat sadar, dibuat atas dasar
+                                <a href="http://startbootstrap.com"> LOGIKA</a>
+                                .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer><div className="copyright py-4 text-center text-white">
+                    <div className="container"><small>Copyright &copy; Your Website 2022</small></div>
+                </div></>
+        )
+    }
+}
+
+export default Footer 

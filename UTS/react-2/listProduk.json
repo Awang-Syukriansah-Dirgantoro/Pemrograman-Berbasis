@@ -1,0 +1,104 @@
+{
+  "produk": [
+    {
+      "id": 1,
+      "nama": "Washer Dryer",
+      "merek": "Panasonic",
+      "fitur": "7 Jet Showers, Hydro Active+, Dancing Wash System, 3D Sensor, Child Lock, alarm peringatan, New ECO Drying System, dan ECONAVI",
+      "tipe": "Front loading",
+      "kapasitas": "10 kg",
+      "gambar": "assets/1.jpeg",
+      "harga": 21999000
+    },
+    {
+      "id": 2,
+      "nama": "Mesin Cuci LG 7kg",
+      "merek": "LG",
+      "fitur": "Steam Softener™, Pause & Add Items, dan Inverter Direct Drive Motor",
+      "tipe": "Front loading",
+      "kapasitas": "7 kg",
+      "gambar": "assets/2.jpeg",
+      "harga":  4550000
+    },
+    {
+      "id": 3,
+      "nama": "7 Kg Front Loading Series",
+      "merek": "Sharp",
+      "fitur": "Triple Quick Wash, Super Clean Rinse, dan Turbo Key",
+      "tipe": "Front loading",
+      "kapasitas": "7 kg",
+      "gambar": "assets/3.jpg",
+      "harga":  3800000
+    },
+    {
+      "id": 4,
+      "nama": "Mesin Cuci UltraEco 500 8kg",
+      "merek": "Electrolux",
+      "fitur": "Add Clothes, 3 opsi level kotoran, Child Lock, mode pencucian hijab & batik, program Quick 20",
+      "tipe": "Front loading",
+      "kapasitas": "8 kg",
+      "gambar": "assets/4.jpg",
+      "harga":  6215000
+    },
+    {
+      "id": 5,
+      "nama": "New Zeromatic Belleza Automatic Washing Machine",
+      "merek": "Polytron",
+      "fitur": "Hijab Mode, Fuzzy Logic, Easy Start, Soak Function, Adjustable Water Level, Error Code Alarm, Remaining Time, Water Fall, Zero Pressure Technology, dan Magic Pouch",
+      "tipe": "Top loading",
+      "kapasitas": "8 kg",
+      "gambar": "assets/5.jpg",
+      "harga":   2299000
+    },
+    {
+      "id": 6,
+      "nama": "WA70 Top Load Wobble Technology 7 Kg",
+      "merek": "Samsung",
+      "fitur": "Air Turbo Drying System, Child Lock, Eco Tub Clean Technology, Magic Filter, dan Water Fall Technology",
+      "tipe": "Top loading",
+      "kapasitas": "7 kg",
+      "gambar": "assets/6.jpeg",
+      "harga":   2895900
+    },
+    {
+      "id": 7,
+      "nama": "Mesin Cuci Top Load",
+      "merek": "Aqua Japan",
+      "fitur": "Hand Wash Function, Low Water Pressure, dan Pillow Drum",
+      "tipe": "Top loading",
+      "kapasitas": "10.5 kg",
+      "gambar": "assets/7.jpg",
+      "harga":   3599000
+    },
+    {
+      "id": 8,
+      "nama": "WT75 Twin Tub dengan Dynamic Pulsator 7.5 Kg",
+      "merek": "Samsung",
+      "fitur": "Dynamic Pulsator dan Sistem Pengering Turbo",
+      "tipe": "Manual (2 tabung)",
+      "kapasitas": "7.5 kg",
+      "gambar": "assets/8.jpg",
+      "harga":   1899000
+    },
+    {
+      "id": 9,
+      "nama": "Mesin Cuci Twin Tub",
+      "merek": "Toshiba",
+      "fitur": "High Blades Pulsator, Super Jet Spin, dan Golden Soak Period",
+      "tipe": "Manual (2 tabung)",
+      "kapasitas": "14 kg",
+      "gambar": "assets/9.jpg",
+      "harga":    2599000
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
