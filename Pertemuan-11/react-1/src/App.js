@@ -1,13 +1,7 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
   Routes as Switch,
-  Route,
-  Link,
-  useParams,
-  useLocation,
-  useNavigate,
-  Navigate as Redirect,
+  Route
 } from "react-router-dom";
 import { connect } from "react-redux";
 import ProtectedRoute from "./components/protectedRoute";
@@ -17,16 +11,14 @@ import Login from "./components/Login";
 function App(props) {
   const { isAuthenticated, isVerifying } = props;
   return (
+    <>
     <Switch>
-      <ProtectedRoute
-        exact
-        path="/"
-        component={Home}
-        isAuthenticated={isAuthenticated}
-        isVerifying={isVerifying}
-      />
-      <Route path="/login" component={Login} />
+      <Route element={<ProtectedRoute isAuthenticated={isAuthenticated} isVerifying={isVerifying}/>}>
+        <Route path="/" element={<Home />} />
+      </Route>
+      <Route path="/login" element={<Login/>} />
     </Switch>
+    </>
   );
 }
 function mapStateToProps(state) {

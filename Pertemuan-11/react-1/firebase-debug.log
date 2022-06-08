@@ -1,37 +1,35 @@
-[debug] [2022-06-01T22:41:04.951Z] ----------------------------------------------------------------------
-[debug] [2022-06-01T22:41:04.959Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
-[debug] [2022-06-01T22:41:04.961Z] CLI Version:   11.0.0
-[debug] [2022-06-01T22:41:04.961Z] Platform:      linux
-[debug] [2022-06-01T22:41:04.961Z] Node Version:  v17.5.0
-[debug] [2022-06-01T22:41:05.082Z] Time:          Thu Jun 02 2022 05:41:04 GMT+0700 (Western Indonesia Time)
-[debug] [2022-06-01T22:41:05.083Z] ----------------------------------------------------------------------
+[debug] [2022-06-08T10:14:58.935Z] ----------------------------------------------------------------------
+[debug] [2022-06-08T10:14:58.942Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2022-06-08T10:14:58.943Z] CLI Version:   11.0.1
+[debug] [2022-06-08T10:14:58.943Z] Platform:      linux
+[debug] [2022-06-08T10:14:58.943Z] Node Version:  v17.5.0
+[debug] [2022-06-08T10:14:59.081Z] Time:          Wed Jun 08 2022 17:14:58 GMT+0700 (Western Indonesia Time)
+[debug] [2022-06-08T10:14:59.082Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2022-06-01T22:41:05.113Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
-[debug] [2022-06-01T22:41:05.423Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2022-06-01T22:41:05.424Z] > authorizing via signed-in user (awcvk130201@gmail.com)
-[debug] [2022-06-01T22:41:05.424Z] [iam] checking project prtm-11 for permissions ["firebase.projects.get"]
-[debug] [2022-06-01T22:41:05.426Z] > refreshing access token with scopes: []
-[debug] [2022-06-01T22:41:05.428Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+[debug] [2022-06-08T10:14:59.325Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-08T10:14:59.326Z] > authorizing via signed-in user (awcvk130201@gmail.com)
+[debug] [2022-06-08T10:14:59.327Z] [iam] checking project prtm-11 for permissions ["firebase.projects.get"]
+[debug] [2022-06-08T10:14:59.365Z] > refreshing access token with scopes: []
+[debug] [2022-06-08T10:14:59.367Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
  <request body omitted>
-[debug] [2022-06-01T22:41:05.669Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Wed, 01 Jun 2022 22:41:05 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2022-06-01T22:41:05.828Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/prtm-11:testIamPermissions [none]
-[debug] [2022-06-01T22:41:05.830Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/prtm-11:testIamPermissions {"permissions":["firebase.projects.get"]}
-[debug] [2022-06-01T22:41:06.342Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
-[debug] [2022-06-01T22:41:06.342Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
-[debug] [2022-06-01T22:41:07.043Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/prtm-11:testIamPermissions 200
-[debug] [2022-06-01T22:41:07.044Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/prtm-11:testIamPermissions {"permissions":["firebase.projects.get"]}
-[debug] [2022-06-01T22:41:07.048Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/prtm-11 [none]
-[debug] [2022-06-01T22:41:07.544Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/prtm-11 200
-[debug] [2022-06-01T22:41:07.544Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/prtm-11 {"projectId":"prtm-11","projectNumber":"594533345438","displayName":"prtm-11","name":"projects/prtm-11","resources":{"hostingSite":"prtm-11","storageBucket":"prtm-11.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[debug] [2022-06-08T10:15:00.377Z] <<< HTTP RESPONSE 200 {"date":"Wed, 08 Jun 2022 10:15:00 GMT","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-06-08T10:15:00.474Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/prtm-11:testIamPermissions [none]
+[debug] [2022-06-08T10:15:00.474Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/prtm-11:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-06-08T10:15:01.687Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/prtm-11:testIamPermissions 200
+[debug] [2022-06-08T10:15:01.687Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/prtm-11:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-06-08T10:15:01.691Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/prtm-11 [none]
+[debug] [2022-06-08T10:15:02.114Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/prtm-11 200
+[debug] [2022-06-08T10:15:02.115Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/prtm-11 {"projectId":"prtm-11","projectNumber":"594533345438","displayName":"prtm-11","name":"projects/prtm-11","resources":{"hostingSite":"prtm-11","realtimeDatabaseInstance":"prtm-11-default-rtdb","storageBucket":"prtm-11.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
 [info] 
 [info] === Serving from '/home/awang/Desktop/Android/PemrogramanBerbasisFramework/Pertemuan-11/react-1'...
 [info] 
-[debug] [2022-06-01T22:41:07.552Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/prtm-11/sites 
-[debug] [2022-06-01T22:41:09.130Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/prtm-11/sites 200
-[debug] [2022-06-01T22:41:09.130Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/prtm-11/sites {"sites":[{"name":"projects/prtm-11/sites/prtm-11","defaultUrl":"https://prtm-11.web.app","type":"DEFAULT_SITE"}]}
-[debug] [2022-06-01T22:41:09.131Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/prtm-11/webApps/-/config [none]
-[debug] [2022-06-01T22:41:10.192Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/prtm-11/webApps/-/config 200
-[debug] [2022-06-01T22:41:10.193Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/prtm-11/webApps/-/config {"projectId":"prtm-11","storageBucket":"prtm-11.appspot.com","locationId":"us-central","apiKey":"AIzaSyB1hkPxg7uH3QBNaYmAnqbcL4VdhouE6xc","authDomain":"prtm-11.firebaseapp.com","messagingSenderId":"594533345438"}
+[debug] [2022-06-08T10:15:02.120Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/prtm-11/sites 
+[debug] [2022-06-08T10:15:03.668Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/prtm-11/sites 200
+[debug] [2022-06-08T10:15:03.668Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/prtm-11/sites {"sites":[{"name":"projects/prtm-11/sites/prtm-11","defaultUrl":"https://prtm-11.web.app","appId":"1:594533345438:web:b3af967d0348d79c48f38f","type":"DEFAULT_SITE"}]}
+[debug] [2022-06-08T10:15:03.670Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/prtm-11/webApps/1:594533345438:web:b3af967d0348d79c48f38f/config [none]
+[debug] [2022-06-08T10:15:04.941Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/prtm-11/webApps/1:594533345438:web:b3af967d0348d79c48f38f/config 200
+[debug] [2022-06-08T10:15:04.942Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/prtm-11/webApps/1:594533345438:web:b3af967d0348d79c48f38f/config {"projectId":"prtm-11","appId":"1:594533345438:web:b3af967d0348d79c48f38f","databaseURL":"https://prtm-11-default-rtdb.firebaseio.com","storageBucket":"prtm-11.appspot.com","locationId":"us-central","apiKey":"AIzaSyB1hkPxg7uH3QBNaYmAnqbcL4VdhouE6xc","authDomain":"prtm-11.firebaseapp.com","messagingSenderId":"594533345438","measurementId":"G-WV0X6WN8RN"}
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port... {"metadata":{"emulator":{"name":"hosting"},"message":"\u001b[33mhosting: \u001b[39mPort 5000 is not available. Trying another port..."}}
 [warn] ⚠  hosting: Port 5000 is not available. Trying another port... {"metadata":{"emulator":{"name":"hosting"},"message":"\u001b[33mhosting: \u001b[39mPort 5000 is not available. Trying another port..."}}
 [info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
-[info] ✔  hosting: Local server: http://localhost:5005 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5005\u001b[22m\u001b[24m"}}
+[info] ✔  hosting: Local server: http://localhost:5010 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5010\u001b[22m\u001b[24m"}}

@@ -1,6 +1,7 @@
 {
   "projects": {
-    "prtm-11": "prtm-11"
+    "prtm-11": "prtm-11",
+    "default": "prtm-11"
   },
   "targets": {}
 }

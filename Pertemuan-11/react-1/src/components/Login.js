@@ -1,17 +1,10 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import {
-    BrowserRouter as Router,
-    Routes as Switch,
-    Route,
-    Link,
-    useParams,
-    useLocation,
-    useNavigate,
     Navigate as Redirect,
   } from "react-router-dom";
 import { loginUser } from "../actions/auth";
-import { withStyles } from "@material-ui/styles";
+import { withStyles } from "@material-ui/core/styles";
 
 import Avatar from "@material-ui/core/Avatar";
 import Button from "@material-ui/core/Button";
@@ -77,38 +70,14 @@ class Login extends Component {
             <Typography component="h1" variant="h5">
               Sign In
             </Typography>
-            <TextField
-              variant="outlined"
-              margin="normal"
-              fullWidth
-              id="email"
-              label="Email Address"
-              name="email"
-              onChange={this.handleEmailChange}
-            />
-            <TextField
-              variant="outlined"
-              margin="normal"
-              fullWidth
-              name="password"
-              label="Password"
-              type="password"
-              id="password"
-              onChange={this.handlePasswordChange}
-            />
+            <TextField variant="outlined" margin="normal" fullWidth id="email" label="Email Address" name="email" onChange={this.handleEmailChange} />
+            <TextField variant="outlined" margin="normal" fullWidth name="password" label="Password" type="password" id="password" onChange={this.handlePasswordChange} />
             {loginError && (
               <Typography component="p" className={classes.errorText}>
                 Incorrect email or password.
               </Typography>
             )}
-            <Button
-              type="button"
-              fullWidth
-              variant="contained"
-              color="primary"
-              className={classes.submit}
-              onClick={this.handleSubmit}
-            >
+            <Button type="button" fullWidth variant="contained" color="primary" className={classes.submit} onClick={this.handleSubmit} >
               Sign In
             </Button>
           </Paper>

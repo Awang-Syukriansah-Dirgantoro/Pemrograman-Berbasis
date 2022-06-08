@@ -1,5 +1,5 @@
 import { myFirebase } from "../firebase/firebase";
-import "firebase/auth";
+import "firebase/compat/auth";
 
 export const LOGIN_REQUEST = "LOGIN REQUEST";
 export const LOGIN_SUCCESS = "LOGIN SUCCESS";
